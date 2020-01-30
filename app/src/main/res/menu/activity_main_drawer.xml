@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/makeserver"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Make Your Mobile As Server" />
+        <item
+            android:id="@+id/aboutyourself"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About Yourself" />
+        <item
+            android:id="@+id/yourservice"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Your Services" />
+        <item
+            android:id="@+id/skills"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Your Skillsets" />
+        <item
+            android:id="@+id/yourworkexperience"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Work Experience" />
+        <item
+            android:id="@+id/projectswork"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Projects In Work" />
+        <item
+            android:id="@+id/youreducation"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Your Education" />
+        <item
+            android:id="@+id/nav_aboutprofile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About Your Profile" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Messages For You" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_profession"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add Profession" />
+            <item
+                android:id="@+id/nav_skill"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Skills" />
+        </menu>
+    </item>
+
+</menu>
